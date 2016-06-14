@@ -10,18 +10,11 @@ public class StudentInfo {
 		System.out.println("Welcome to our Java class.");
 		
 		//arrays of student data
-		String[][] students = new String[3][3];
-		students[0][0] = "Jon";
-		students[0][1] = "Huntington, NY";
-		students[0][2] = "pizza";
-		
-		students[1][0] = "Henry";
-		students[1][1] = "San Francisco, CA";
-		students[1][2] = "sushi";
-		
-		students[2][0] = "Lexi";
-		students[2][1] = "Homer Glenn, IL";
-		students[2][2] = "chicken cordon bleu";
+		String[][] students = new String[][]{
+			{"Jon","Huntington, NY","pizza"},
+			{"Henry","San Francisco, CA","sushi"},
+			{"Lexi","Homer Glenn, IL","chicken cordon bleu"},
+		};
 		
 		//loop for running the entire program again
 		boolean cont = true;
