@@ -66,8 +66,7 @@ public class StudentInfo {
 					gotInfo = true;
 						
 				} catch (IllegalArgumentException e) {
-					System.out.print(
-							"That data does not exist. Please try again. ");
+					System.out.print("That data does not exist. Please try again. ");
 				}
 			}
 			
